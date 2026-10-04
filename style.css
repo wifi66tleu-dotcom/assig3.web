@@ -1,0 +1,193 @@
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+a:focus-visible, button:focus-visible {
+    outline: 3px solid #243a30;
+    outline-offset: 3px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f5f1cc;
+    color: #000000;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a {
+    color: #385a43;
+}
+
+a:hover {
+    color: #18261e;
+}
+
+.navbar {
+    padding: 16px;
+    background-color: #3b6799d5;
+}
+
+.page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text {
+    margin-bottom: 30px;
+}
+
+.photo-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.photo-card,
+.box,
+.collection,
+.sidebar {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.photo-card,
+.collection {
+    height: 100%;
+}
+
+.category {
+    color: #000000;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+}
+
+.sidebar a {
+    overflow-wrap: anywhere;
+}
+
+.note {
+    display: none;
+}
+
+footer {
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    background-color: #3b6799d5;
+}
+
+footer a {
+    color: #e0ebd4;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 8px;
+}
+
+.bootstrap-area {
+    font-family: inherit;
+    color: inherit;
+}
+
+.simple-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 44px;
+    }
+
+    .text h2 {
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 18px;
+    }
+
+    .boxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .page {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .note {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 56px;
+    }
+
+    .text h2 {
+        font-size: 36px;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+
+    .boxes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .page {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.bootstrap-area h2 {
+    font-size: 24px;
+}
+
+.bootstrap-area h3 {
+    font-size: 20px;
+}
+

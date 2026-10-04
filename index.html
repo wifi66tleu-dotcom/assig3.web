@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passing Moments - by Aiymay</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="vendor/bootstrap-scoped.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bootstrap-area">
+        <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <img src="logo.png" alt="" class="logo">
+                    Passing Moments
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menu" aria-controls="menu"
+                    aria-expanded="false" aria-label="Open or close menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#typography">Moments</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#css-layout">Stories</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#bootstrap-layout">Journeys</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Photos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about me">About me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="simple-container page text" id="typography">
+            <h1>Some moments stay with us</h1>
+            <p>I rarely plan what to photograph. Sometimes it's the light falling through the trees. 
+                Sometimes it's a place I almost walked past. I stop, take a photo, and wonder how much else I've missed.</p>
+            <h3>There is always something outside the frame</h3>
+            <p>A photo won't tell you what the air felt like or what happened a second later. I like that. It leaves a little room for memory, and a little room for imagination.</p>
+        </section>
+
+        <section class="simple-container page" id="css-layout">
+            <h1>Stories between the frames</h1>
+            <div class="boxes">
+                <article class="box">
+                    <h3>People</h3>
+                    <p>A slow afternoon, a few familiar faces. Ordinary moments have a way of becoming memories.</p>
+                </article>
+                <article class="box">
+                    <h3>Nature</h3>
+                    <p>I never mind the long way home when there is a view worth stopping for.</p>
+                </article>
+                <article class="box">
+                    <h3>Animals</h3>
+                    <p>They move on before I can take another photo. One frame is all I get to keep.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="bootstrap-area" id="bootstrap-layout">
+            <div class="container page">
+                <h1>Where the day takes me</h1>
+                <p>A few places I like to return to, with my camera in hand.</p>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="collection">
+                            <h3>A quiet afternoon</h3>
+                            <p>Parks, little conversations and the light just before evening.</p>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="collection">
+                            <h3>The road ahead</h3>
+                            <p>Open windows, unfamiliar paths and a reason to keep looking outside.</p>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="collection">
+                            <h3>Out in the open</h3>
+                            <p>A little distance from the city, where the day follows its own pace.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bootstrap-area" id="portfolio">
+            <div class="container page">
+                <div class="row g-4">
+                    <section class="col-12 col-lg-9" id="projects">
+                        <h2>Through my lens</h2>
+                        <div class="row g-4">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <article class="photo-card">
+                                    <img src="images/people.jpg" alt="People relaxing on the grass under trees in a park">
+                                    <p class="category">People</p>
+                                    <h3>Stories Unspoken</h3>
+                                    <p>Everyone has somewhere to be. For a little while, this patch of sunlight is enough.</p>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <article class="photo-card">
+                                    <img src="images/nature.jpg" alt="A traveller photographing the coast through a bus window">
+                                    <p class="category">Nature</p>
+                                    <h3>Somewhere Beyond</h3>
+                                    <p>The view changes with every turn. I keep wondering what waits beyond the next hill.</p>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <article class="photo-card">
+                                    <img src="images/hors.jpg" alt="Horses running through the grass between trees">
+                                    <p class="category">Animals</p>
+                                    <h3>A World of Their Own</h3>
+                                    <p>They run as if they know exactly where they belong. I watch until they disappear between the trees.</p>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+
+                    <aside class="col-12 col-lg-3">
+                        <div class="sidebar">
+                            <section id="about">
+                                <h2>About me</h2>
+                                <p>I'm Aiymay, a student in Astana. I like walking with my camera and noticing things I would usually pass by.</p>
+                                <p class="note">I don't always know what I'm looking for. Sometimes the photo finds me first.</p>
+                            </section>
+                            <section id="contact">
+                                <h3>Contact</h3>
+                                <p>Astana, Kazakhstan</p>
+                                <a href="gmailto:wifi66tleu@gmail.com">wifi66tleu@gmail.com</a>
+                            </section>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Astana IT University | Aiymay Tleu | SE 2539</p>
+        <a href="#home">Back up</a>
+    </footer>
+    <script src="vendor/bootstrap.bundle.min.js"></script>
+</body>
+</html>
